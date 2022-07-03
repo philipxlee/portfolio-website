@@ -1,13 +1,15 @@
+/* Changes overall font of Home Page */
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3e497a;
   }
   
+  /* Changes the bio right under "Hi I'm Philip" */
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,11 +19,13 @@
     color: #f0f0f0;
   }
   
+  
+  /* Changes Hi Im Philip */
   .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
     color: #e9d35b;
-    height: 50px;
+    height: 20px;
   }
   
   .about .prompt {
@@ -29,15 +33,16 @@
     font-size: 30px;
   }
   
+  /* changes logos under short bio */
   .prompt svg {
     font-size: 60px;
     margin: 5px;
     color: white;
   }
   
-
+/* changes skills including technical skills, languages etc*/
   .skills {
-    font-size: 35px;
+    font-size: 25px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,9 +50,9 @@
     align-items: center;
   }
   
-  .skills h1 {
+  .skills h1{
     color: #3e497a;
-    
+    height: 0px;
   }
 
   /* Gets ride of bullets */
@@ -62,7 +67,7 @@
   
   /* Changes list sizes e.g. C++, python */
   .list span {
-    font-size: 20px;
+    font-size: 30px;
   }
   
   @media only screen and (max-width: 600px) {

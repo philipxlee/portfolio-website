@@ -8,11 +8,17 @@ function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia"> 
+        <a href="https://www.linkedin.com/in/philipxlee/" target="_blank">
             <LinkedInIcon /> 
+        </a>
+        <a href="https://github.com/philipxlee" target="_blank">
             <GitHubIcon />
+        </a>
+        <a href="mailto:philip.lee@duke.edu">
             <EmailIcon />
+        </a>
         </div>
-            <p> &copy; 2022 Philip Lee </p>
+            <p> &copy; Philip Lee 2022</p>
         
     </div>
   )
